@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-
 
 @Component({
   selector: 'app-home-page',
@@ -9,14 +7,9 @@ import { Router } from '@angular/router';
 })
 export class HomePageComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
-  public retails(){
-    //window.open('http://localhost:4200/retail', '_blank');
-   //this.router.navigate(['/retails'])
-     }
-     
 
 }
